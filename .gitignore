@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+*.env.local
+
+# Build outputs
+backend/dist/
+flutter_app/build/
+flutter_app/.dart_tool/
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Uploads (user-uploaded files — stored locally, not in VCS)
+uploads/
+backend/uploads/
+
+# Logs
+*.log
+
+# Flutter generated
+flutter_app/.flutter-plugins
+flutter_app/.flutter-plugins-dependencies
+flutter_app/.packages
+flutter_app/.metadata
+
+# Temp / analysis output
+*.txt
+!README*.txt
+
+# Project report docs (large binary files)
+*.docx
+
+# Gemini agent
+.gemini/
